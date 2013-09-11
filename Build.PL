@@ -21,7 +21,7 @@ my $build = Module::Build->new(
             homepage   => 'http://search.cpan.org/dist/JSON-YAJL/',
             repository => {
                 type => 'git',
-                web  => 'git@github.com:acme/JSON--YAJL.git',
+                web  => 'git://github.com/acme/JSON--YAJL.git',
                 url  => 'https://github.com/acme/JSON--YAJL',
             },
         },
